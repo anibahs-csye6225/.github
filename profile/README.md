@@ -15,6 +15,6 @@ This project is a scalable user management system designed and deployed on **Goo
 - Designed for **asynchronous user verification**, leveraging UUID tokens for secure and efficient processing.
 
 ### Infrastructure as Code (IaC)
-- Fully automated deployment using **Terraform**:
-  - Provisioned an **EC2 instance** for hosting the web application.
-  - Deployed a **Managed Instance Group (MIG)** with autoscaling to ensure high availability and performance.
+- Fully automated deployment using **Terraform** and GitHub Actions:
+  - Deployed a **Managed Instance Group (MIG)** with autoscaling and load balancer to ensure high availability and performance.
+
